@@ -1,0 +1,64 @@
+body {
+    margin: 0px;
+}
+
+.left-bar {
+    background-color: #38bdf8;
+    text-align: center;
+    align-items: center;
+    /*NEED TO FIX UNITS*/
+    padding-left: 2%;
+    padding-right: 5%;
+    width: 15vw;
+    height: 100vh;
+    /*NEED TO FIX UNITS*/
+}
+
+
+.logo {
+    display: flex;
+    padding-left: 1vw;
+    gap: 10px;
+    align-items: center;
+    text-align: center;
+}
+
+.navigation-bar {
+    display: flex;
+    flex-direction: column;
+    /*NEED TO FIX UNITS*/
+    gap: 50px;
+    /*NEED TO FIX UNITS*/
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-section-1,
+.nav-section-2 {
+    display: flex;
+    flex-direction: column;
+    /*NEED TO FIX UNITS*/
+    gap: 10px;
+    /*NEED TO FIX UNITS*/
+
+}
+
+.button {
+    display: flex;
+    text-align: left;
+    border-style: solid;
+    border-color: black;
+    /*NEED TO FIX UNITS*/
+    gap: 10px;
+    padding: 10px;
+    /*NEED TO FIX UNITS*/
+}
+
+/*REVAMP THE NAVIGATION BAR TO USE GRID*/
+
+/*USE FLEX TO LAYOUT THE HEADER*/
+
+/*USE GRID TO LAYOUT THE MAIN (PROJECTS, ANNOUNCEMENTS, AND TRENDING*/
